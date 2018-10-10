@@ -12,8 +12,9 @@ public class Q5 {
 		arrayList.add(s2);
 		arrayList.add(s3);
 		for (int i = 0; i < arrayList.size(); i++) {
-			System.out.println(arrayList.get(i).name+" "+arrayList.get(i).age+""+arrayList.get(i).sex);
-			
+			System.out.println(arrayList.get(i).name + " "
+					+ arrayList.get(i).age + "" + arrayList.get(i).sex);
+
 		}
 		int max = maxAge(s1.age, s2.age, s3.age);
 		find(max, s1, s2, s3);
@@ -43,9 +44,3 @@ public class Q5 {
 		}
 	}
 }
-
-	
-
-
-
-

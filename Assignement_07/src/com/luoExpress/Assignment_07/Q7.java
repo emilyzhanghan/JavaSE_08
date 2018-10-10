@@ -11,8 +11,10 @@ public class Q7 {
 		arrayList.add(e1);
 		arrayList.add(e2);
 		arrayList.add(e3);
-		for (Employee element : arrayList) {
-			System.out.println(element);
+		for (int i = 0; i < arrayList.size(); i++) {
+			System.out.println(arrayList.get(i).name + " "
+					+ arrayList.get(i).Employee_id + "" + arrayList.get(i).salary);
+
 		
 	}
 }

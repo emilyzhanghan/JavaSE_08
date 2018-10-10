@@ -14,11 +14,11 @@ public class Q6 {
 	arrayList.add(leshi);
 	arrayList.add(qiku);
 	
-	for (Phone element : arrayList) {
-		System.out.println(element);
-	
-	}
+	for (int i = 0; i < arrayList.size(); i++) {
+		System.out.println(arrayList.get(i).brand + " "
+				+ arrayList.get(i).price + "" + arrayList.get(i).color);
 
 }
 
+}
 }
